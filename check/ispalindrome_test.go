@@ -1,14 +1,14 @@
 package palindrome
 
-import(
+import (
 	"testing"
 )
 
-func TestIspalindrome(t *testing.T){
-	got := Ispalindrome("")
-	want := true
+func TestIspalindrome(t *testing.T) {
+	got := Ispalindrome("0P")
+	want := false
 
 	if got != want {
-		t.Fatalf("Faulty palindrome checking algorithm")
+		t.Fatalf("Fault palindrome checking algorithm")
 	}
 }
